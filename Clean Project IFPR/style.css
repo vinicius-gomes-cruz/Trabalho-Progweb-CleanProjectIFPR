@@ -26,17 +26,17 @@ body {
 }
 
 .btn {
-    background-color: var(--color1);
-    color: var(--color4) !important;
-    box-shadow: 0 0 10px var(--color1);
+    background-color: var(--color4);
+    color: var(--color1) !important;
+    box-shadow: 0 0 10px var(--color4);
     transition: background-color .5s;
 }
 
 .btn:hover {
-    background-color: var(--color4);
-    color: var(--color1) !important;
+    background-color: var(--color1);
+    color: var(--color4) !important;
     transform: scale(1.05);
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .title {
@@ -50,5 +50,19 @@ body {
 footer {
     background-color: var(--color1);
     color: var(--color4) !important;
+}
+
+#project {
+    margin-bottom: 50px;
+}
+
+#install {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#features {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
